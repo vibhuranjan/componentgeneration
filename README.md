@@ -1,0 +1,2 @@
+# componentgeneration
+To generate components
