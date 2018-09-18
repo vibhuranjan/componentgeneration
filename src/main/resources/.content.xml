@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="revu.global.netz.cscn.components.componentname.component.description"
+    jcr:primaryType="cq:Component"
+    jcr:title="revu.global.netz.cscn.components.componentname.component.name"
+    allowedParents="[*/parsys]"
+    componentGroup="Revu Global CSCN"/>

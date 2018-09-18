@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="revu.global.netz.cscn.components.componentname.dialog.title"
+    width="620"
+    xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tabs
+            jcr:primaryType="cq:Widget"
+            xtype="tabpanel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <labels
+                    jcr:primaryType="cq:Widget"
+                    title="revu.global.netz.cscn.components.componentname.dialog.tab.devicelisttab"
+                    xtype="panel">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <testField1
+                            jcr:primaryType="cq:Widget"
+                            defaultValue="Test field 1 value"
+                            fieldLabel="revu.global.netz.cscn.components.componentname.dialog.testField1"
+                            name="./testField1"
+                            xtype="textfield"/>
+                        <testField2
+                            jcr:primaryType="cq:Widget"
+                            defaultValue="Test field 2 value"
+                            fieldLabel="revu.global.netz.cscn.components.componentname.dialog.testField2"
+                            name="./testField2"
+                            xtype="textfield"/>
+                    </items>
+                </labels>
+                <color
+                    jcr:primaryType="cq:Widget"
+                    path="/apps/revu-global/components/page/projectrootpage/includes/tab_color.infinity.json"
+                    xtype="cqinclude"/>
+            </items>
+        </tabs>
+    </items>
+</jcr:root>
